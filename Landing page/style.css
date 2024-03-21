@@ -1440,7 +1440,7 @@ html{
       max-width: 100%;
       flex-wrap: wrap;
       display: flex;
-      flex-direction: column !important;
+      flex-direction: row !important;
       align-items: center;
       text-align: center;
       gap: 20px;
@@ -1526,4 +1526,24 @@ html{
   }
   .bg-garyFoot{
     background-color: #F9F9FB;
+  }
+
+  @media (max-width: 991px) {
+    .logo-containerr {
+      max-width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+  
+    }
+    .logo-text {
+      font-family: Inter, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0 !important;
+    }
+    
   }
